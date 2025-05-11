@@ -1,0 +1,124 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .phone-view {
+    display: none;
+  }
+  .phone-header {
+    text-align: left !important;
+  }
+  .phone-size {
+    font-size: 14px !important;
+  }
+  .custom-border {
+    border: none;
+  }
+  .h1-header {
+    font-size: 18px !important;
+  }
+  .phone-footer-icon {
+    display: flex;
+    justify-content: space-around !important;
+  }
+  .Our_Latest_Ads .latest_ads .list {
+    width: 93%;
+  }
+  .premium_part {
+    margin-bottom: 10px;
+  }
+  .latest_ads_card .Premium_btn {
+    width: 130px;
+  }
+  .hire-d-flex{
+    flex-direction: column;
+  }
+  .About_banner .Our_Story_title {
+    font-size: 27px;
+    padding: 5px 20px;
+  }
+  .Our_Team .sec_tit h2,
+  .Our_Purpose .sec_tit h2 {
+    color: var(--mainColor);
+    font-size: 30px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .phone-view {
+    display: none;
+  }
+  .phone-header {
+    text-align: left !important;
+  }
+  .phone-size {
+    font-size: 14px !important;
+  }
+  .custom-border {
+    border: none;
+  }
+  .h1-header {
+    font-size: 19px !important;
+  }
+  .phone-footer-icon {
+    display: flex;
+    justify-content: center !important;
+  }
+  .hire-d-flex{
+    flex-direction: column;
+  }
+  .About_banner .Our_Story_title {
+    font-size: 27px;
+    padding: 5px 20px;
+  }
+  .Our_Team .sec_tit h2,
+  .Our_Purpose .sec_tit h2 {
+    color: var(--mainColor);
+    font-size: 30px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 991px) {
+  .phone-footer-icon {
+    display: flex;
+    justify-content: center;
+  }
+  .h1-header {
+    font-size: 16px !important;
+  }
+  .About_banner .Our_Story_title {
+    font-size: 27px;
+    padding: 5px 20px;
+  }
+  .Our_Team .sec_tit h2,
+  .Our_Purpose .sec_tit h2 {
+    color: var(--mainColor);
+    font-size: 30px;
+}
+}
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 992px) and (max-width: 1236px) {
+  .phone-navbar {
+    display: flex !important;
+    flex-wrap: inherit !important;
+    flex-direction: column !important;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+}
+@media (max-width: 1006px) {
+  .custom-row-view .col-md-3,
+  .custom-row-view .col-md-4,
+  .custom-row-view .col-md-2 {
+    width: 100%;
+  }
+}
